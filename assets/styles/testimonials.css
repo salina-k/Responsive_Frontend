@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.testimonial {
+    padding: 10% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.testimonial h1 {
+    font-size: 36px;
+    color: var(--background);
+    border-bottom: 2px solid var(--background);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.testimonial-content .video {
+    margin-left: -10%;;
+}
+
+.testimonial-content-detail {
+    margin: 20% 5%;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.content-desc p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content-title h2 {
+    font-size: 30px;
+    text-decoration: bold;
+}
+
+.content-title {
+    margin-bottom: 1%;
+    margin-top: 25%;
+}
+
+/* Media queries */
+@media (max-width: 1075px) {
+    .content-title h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1050px) {
+    .testimonial h1 {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+
+    .testimonial-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-content-detail {
+        margin: 30px 0;
+    }
+
+    .content-title h2 {
+        font-size: 25px;
+    }
+
+    .content-desc p {
+        font-size: 16px;
+    }
+
+    .content-title {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .video1, .video2 {
+        height: 450px;
+        width: 450px;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 680px) {
+
+    .testimonial h1 {
+        padding-top: 60px;
+        font-size: 30px;
+    }
+
+    .video1, .video2 {
+        height: 400px;
+        width: 400px;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 425px) {
+    .testimonial h1 {
+        padding-top: 70px;
+        font-size: 25px;
+    }
+
+    .testimonial-content {
+        height: 40%;
+        width: 100%;
+    }
+
+    .video1, .video2 {
+        height: 320px;
+        width: 320px;
+        margin-top: 80px;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .testimonial h1 {
+        font-size: 18px;
+    }
+
+    .testimonial-content {
+        height: 50%;
+        width: 100%;
+    }
+
+    .content-title h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .content-desc p {
+        font-size: 14px;
+        width: 110%;
+    }
+
+    .video1, .video2 {
+        height: 250px;
+        width: 250px;
+        margin-top: 80px;
+        margin-left: 10%;
+    }
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/contact.jpg);
+}
+.buisvoip{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.buis-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.buis-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buis-container .buis-box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing:border-box;
+    overflow: hidden;
+    text-align: center;
+
+}
+.buis-container .buis-box .buis-icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+.buis-container .buis-box:nth-child(1) .buis-icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+
+.buis-container .buis-box:nth-child(1):hover .buis-icon
+{
+    box-shadow: 0 0 0 400px #e91e63;
+}
+.buis-container .buis-box:nth-child(2) .buis-icon{
+    box-shadow: 0 0 0 0 #1ee9ce;
+    background: #1ee9ce;
+}
+
+.buis-container .buis-box:nth-child(2):hover .buis-icon
+{
+    box-shadow: 0 0 0 400px #1ee9ce;
+}
+.buis-container .buis-box:nth-child(3) .buis-icon{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+
+.buis-container .buis-box:nth-child(3):hover .buis-icon
+{
+    box-shadow: 0 0 0 400px #2196f3;
+}
+.buis-container .buis-box .buis-content{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.buis-container .buis-box:hover .buis-content{
+    color: #fff;
+}
+.buis-container .buis-box .buis-content h3{
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+}
+.buis-container .buis-box .buis-content{
+    image-resolution: 0;
+}

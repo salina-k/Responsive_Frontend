@@ -1,0 +1,112 @@
+.clear {
+    clear: both;
+}
+
+.mits {
+    padding-top: 12%;
+}
+
+
+.mits-header {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.mits-header h1 {
+
+    color: rgb(0, 150, 120);
+    border-bottom: 5px solid rgb(1, 126, 101);
+}
+
+
+.mits-header h1:hover {
+    font-size: 52px;
+    color: rgba(0, 214, 170, 1);
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+    transform-origin: left;
+}
+
+.mits-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 10%;
+}
+
+.mit-services {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 2%;
+    color: black;
+    padding: 3%;
+}
+
+.mit-services:hover {
+    background-color: rgba(0, 214, 170, 0.5);
+}
+
+
+.icon, .mit-service-header, .mit-service-content {
+    margin: 2%;
+}
+
+.mit-service-header {
+    font-weight: bolder;
+}
+
+.mit-service-content {
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .mits {
+        padding-top: 15%;
+    }
+
+    .mits-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mits-header h1 {
+        padding-left: 10px;
+        padding-top: 12%;
+    }
+
+    .mit-services {
+        margin: 2% auto;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 534px) {
+    .mits h1 {
+        font-size: 40px;
+    }
+
+    .mits-header h1:hover {
+        font-size: 44px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .mits {
+        padding-top: 30%;
+    }
+
+    .mits h1 {
+        font-size: 28px;
+    }
+
+    .mits-header h1:hover {
+        font-size: 30px;
+    }
+
+}

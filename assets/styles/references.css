@@ -1,0 +1,17 @@
+
+.references {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.references-heading {
+    margin-bottom: 5%;
+    color: rgb(0, 150, 120);
+    border-bottom: 5px solid rgb(1, 126, 101);
+}
+
+.references-heading h1 {
+    font-size: 40px;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <!--Linking css-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/styles/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/testimonials.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/footer_style.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/popUpModal.css">
+
+
+    <!--Font awesome-->
+</head>
+<body>
+<header class="nav-bar">
+    <a href="#">
+        <img class="logo" src="assets/images/Navix_logo.png" alt="Navix Systems">
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Business IT <i class="fas fa-caret-down"></i></a>
+                <ul class="business-sub-menu">
+                    <li><a href="itsupport.html">IT Support and Help Desk</a></li>
+                    <li><a href="mits.html">Managed IT Services</a></li>
+                    <li><a href="bits.html">Small Business IT Support</a></li>
+                    <li><a href="sectit.html">IT Security Solutions</a></li>
+                    <li><a href="office.html">Microsoft 365 Consultants</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Cloud <i class="fas fa-caret-down"></i></a>
+                <ul class="cloud-sub-menu">
+                    <li><a href="mcs.html">Managed Cloud Services</a></li>
+                    <li><a href="cclt.html">Cloud Consulting</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Communications <i class="fas fa-caret-down"></i></a>
+                <ul class="communication-sub-menu">
+                    <li><a href="buisint.html">Business Internet</a></li>
+                    <li><a href="bvoip.html">Business VOIP</a></li>
+                </ul>
+            </li>
+            <li><a href="partner.html">Our Partners</a></li>
+            <li><a href="#">Customer Testimonials</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
+</header>
+
+<div class="testimonial">
+
+    <h1 style="font-family: 'Source Sans Pro', sans-serif;
+">Customer Testimonials</h1>
+
+    <div class="testimonial-content">
+        <div class="video">
+            <video class="video1" src="videos/vid.mp4" height="500" width="500" autoplay controls></video>
+
+        </div>
+        <div class="testimonial-content-detail">
+            <div class="content-title">
+                <h2>Falano's testimonial</h2>
+
+            </div>
+            <div class="content-desc">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque consequat turpis, id
+                    aliquam tellus viverra id. Proin at tristique augue. Duis aliquet sodales libero, et tempor sem
+                    tempus eget. Nam egestas, eros sit amet bibendum tincidunt, libero massa finibus ligula, sit amet
+                    cursus augue ipsum id tellus. Cras quis blandit massa. Nullam non elit diam. Nam bibendum mauris
+                    sodales, posuere arcu sed, sagittis ligula."</p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="testimonial-content">
+        <div class="video">
+            <video class="video2" src="videos/vid.mp4" height="500" width="500" autoplay controls></video>
+
+        </div>
+        <div class="testimonial-content-detail">
+            <div class="content-title">
+                <h2>Talano's testimonial</h2>
+
+            </div>
+            <div class="content-desc">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque consequat turpis, id
+                    aliquam tellus viverra id. Proin at tristique augue. Duis aliquet sodales libero, et tempor sem
+                    tempus eget. Nam egestas, eros sit amet bibendum tincidunt, libero massa finibus ligula, sit amet
+                    cursus augue ipsum id tellus. Cras quis blandit massa. Nullam non elit diam. Nam bibendum mauris
+                    sodales, posuere arcu sed, sagittis ligula."</p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<div class="lets-connect">
+    <button id="letsConnect"> Let's Connect</button>
+</div>
+<!-- Modal Starts Here -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Let's Connect</h2>
+        </div>
+        <div class="modal-body">
+            <form action="#">
+                <div class="form-elements email">
+                    <div class="footer-text" style="margin-right: 5%"> Email:</div>
+                    <input type="email" id="userEmail" required>
+
+
+                </div>
+                <div class="form-elements msg">
+                    <div class="footer-text">Message:</div>
+                    <textarea rows="2" cols="25" id="userMessage" required></textarea>
+
+                </div>
+                <div class="btn">
+                    <button type="submit" id="send">Send</button>
+                </div>
+            </form>
+        </div>
+        <!--                <div class="modal-footer">-->
+        <!--                    <button id="close-modal">Close</button>-->
+        <!--                </div>-->
+    </div>
+
+</div>
+
+<!-- Modal Ends Here -->
+
+
+<footer>
+    <div class="container main-content">
+        <div class="left box">
+            <h2>Our Services</h2>
+            <div class="footer-content">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="partner.html">Partners</a></li>
+                    <li><a href="testimonials.html">Customer Testimonials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="center box">
+            <h2>Navix Systems</h2>
+            <div class="footer-content">
+                <p> Founded in 2005 as a pioneer in the managed IT services provider (MSP) industry.
+                    Navix Systems have since evolved into a nationwide master technology services provider (MTSP) that
+                    provides comprehensive technology services to small, mid-sized and enterprise businesses
+                    nationwide.</p>
+
+
+            </div>
+
+        </div>
+        <div class="right box">
+            <h2 style="margin-bottom: 3%;">Contact Us</h2>
+
+            <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text"> Melbourne, Australia</span>
+            </div>
+
+            <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">+123 456 789</span>
+            </div>
+
+            <div class="email">
+                <span class="fas fa-envelope"></span>
+                <span class="text">hello@navixsystem.com</span>
+
+            </div>
+
+
+            <div class='social'>
+                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-youtube"></span></a>
+                <a href="#"><span class="fab fa-google-plus-g"></span></a>
+                <a href="#"><span class="fab fa-pinterest-p"></span></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            &copy; Navix | All Rights Reserved
+        </p>
+        <img src="assets/images/validated.png">
+    </div>
+
+
+</footer>
+
+<script type="text/javascript" src="assets/js/popUpModal.js"></script>
+
+
+</body>
+</html>

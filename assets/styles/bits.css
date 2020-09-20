@@ -1,0 +1,113 @@
+.clear {
+    clear: both;
+}
+
+.bits {
+    padding-top: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+
+.bits-header
+{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.bits-header h1
+{   
+    padding-top: 30px;
+    color: rgb(0, 150, 120);
+    border-bottom: 5px solid rgb(1, 126, 101);
+}
+
+.bits-content {
+    margin: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bits-image, .bits-text {
+    margin: auto 3%;
+    /*width: 100%;*/
+    /*width: 50%;*/
+    /*height: 450px;*/
+}
+
+.bits-text {
+    padding: 5%;
+}
+
+.bits-text p {
+    line-height: 1.5;
+}
+
+.bit-text-header {
+    margin-bottom: 5%;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.above-image-two {
+    position: absolute;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Media Query */
+@media (max-width: 425px) {
+    .bits-header h1 {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    .bits {
+        padding-top: 37%;
+    }
+
+    .bit-text-header h2 {
+        font-size: 20px;
+    }
+
+    .bits-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .bits {
+        padding-top: 16%;
+    }
+
+    .bits-header h1 {
+        
+        padding-left: 20px;
+    }
+
+
+    .bits-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .bits{
+        padding-top: 12%;
+    }
+    .bits-text{
+        padding: 0;
+    }
+    
+}
